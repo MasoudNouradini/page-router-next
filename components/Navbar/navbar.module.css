@@ -1,0 +1,43 @@
+.navbarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  border-bottom: 2px solid black;
+  border-radius: 8px;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  left: 16px;
+  position: absolute;
+  font-style: italic;
+  background: linear-gradient(
+    to left,
+    rgba(10, 10, 236, 0.8),
+    rgb(231, 14, 14, 0.8)
+  );
+  padding: 8px;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 4px 4px 4px black;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #454545;
+}
